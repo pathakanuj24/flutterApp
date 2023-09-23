@@ -45,7 +45,7 @@ class _ColorChangeScreenState extends State<ColorChangeScreen> {
   int green = 201;
   int blue = 255;
 
-  int currentIndex = 0;
+ 
 
   @override
   void initState() {
@@ -128,8 +128,6 @@ class _ColorChangeScreenState extends State<ColorChangeScreen> {
               child: const Text('Change Color to red ',
                   ),
             ),
-
-            
           ],
         ),
       ),
